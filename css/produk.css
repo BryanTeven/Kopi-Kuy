@@ -1,0 +1,94 @@
+@import url(../vendor/bootstrap/bootstrap-icons.css);
+
+@font-face {
+    src: url(../fonts/poppins.woff2);
+    font-family: 'Poppins';
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+nav {
+    background-color: #8C6A5D;
+}
+
+.produk-tombol {
+    background-color: #481E14;
+    color: white;
+}
+
+.custom-hr {
+
+    border-color: #481E14 !important;
+
+}
+
+.produk-tombol:hover {
+    background-color: #33150e;
+    color: white;
+}
+
+.harga {
+    color: #481E14;
+}
+
+.tombol {
+    background-color: #481E14;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.tombol:hover {
+    background-color: #33150e;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+footer a.nav-link {
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    padding: 10px 30px;
+}
+
+section.produk {
+    margin: 0px !important;
+    min-height: 90vh;
+    background-image: url(../images/background/bg_kopi.png);
+}
+
+.produk .card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.produk .card-title {
+    height: 45px;
+}
+
+.produk .hargasize {
+    height: 45px;
+}
+
+footer {
+    background-color: #8C6A5D;
+}
+
+
+.card .img-div {
+    overflow: hidden;
+}
+
+.card img {
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+
+.card:hover img {
+    transform: scale(1.15);
+}
+
+/* Tambahan css produk tulis setelah kode ini */
